@@ -436,7 +436,7 @@
     const lan_es = document.querySelectorAll(`[lang="español"]`);
     const lan_en = document.querySelectorAll(`[lang="english"]`);
 
-    if(lang.toLocaleLowerCase().includes('es')){
+    if(lang.toLocaleLowerCase().includes('es') or true){
       lan_en.forEach(element => {
         element.setAttribute('style', 'display: none;')
       })
